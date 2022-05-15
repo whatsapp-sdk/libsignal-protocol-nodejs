@@ -1,6 +1,11 @@
-# Signal Protocol Typescript Library (libsignal-protocol-typescript)
+# libsignal-protocol-nodejs
 
-Signal Protocol Typescript implementation based on [libsignal-protocol-javscript](https://github.com/signalapp/libsignal-protocol-javascript).
+Signal Protocol Nodejs implementation based on [libsignal-protocol-typescript](https://github.com/privacyresearchgroup/libsignal-protocol-typescript).
+
+## Changes With libsignal-protocol-typescript
+
+- fix bugs
+- add GroupSessionBuilder GroupCipher
 
 ## Code layout
 
@@ -154,21 +159,7 @@ Once this is implemented, building a session is fairly straightforward:
 
 ```ts
 const starterMessageBytes = Uint8Array.from([
-  0xce,
-  0x93,
-  0xce,
-  0xb5,
-  0xce,
-  0xb9,
-  0xce,
-  0xac,
-  0x20,
-  0xcf,
-  0x83,
-  0xce,
-  0xbf,
-  0xcf,
-  0x85,
+  0xce, 0x93, 0xce, 0xb5, 0xce, 0xb9, 0xce, 0xac, 0x20, 0xcf, 0x83, 0xce, 0xbf, 0xcf, 0x85,
 ])
 
 const startSessionWithBoris = async () => {
