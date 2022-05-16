@@ -519,11 +519,6 @@
     "@nodelib/fs.scandir" "2.1.5"
     "fastq" "^1.6.0"
 
-"@privacyresearch/curve25519-typescript@^0.0.12":
-  "integrity" "sha512-ASU2mjNsE838GgEqKYokka6ksjjW05dhYxRRq1aPfC/YEgS0+0OpCvNdF+oBaxjDx1ZYUHLTgV49jfkd1GQ+ig=="
-  "resolved" "https://registry.npmjs.org/@privacyresearch/curve25519-typescript/-/curve25519-typescript-0.0.12.tgz"
-  "version" "0.0.12"
-
 "@privacyresearch/libsignal-protocol-protobuf-ts@^0.0.9":
   "integrity" "sha512-5dYQc1gL+T9u+8oqGgvSHEoSLBsecg2vbeJ9vOenchSyve4WFcLR3FHJug3ZlK/KGfDyVE4/sWd7XqyHLnqn7A=="
   "resolved" "https://registry.npmjs.org/@privacyresearch/libsignal-protocol-protobuf-ts/-/libsignal-protocol-protobuf-ts-0.0.9.tgz"
@@ -1183,6 +1178,11 @@
   "version" "2.3.0"
   dependencies:
     "cssom" "~0.3.6"
+
+"curve25519-node@^0.0.1":
+  "integrity" "sha512-plPh3JYsNrYw87I1RCn/qVjM2D4rIuy1//6GNrSIaGwNmyhsoUh06DEQSCbyie+9JQrirxfYE660zQQUCt0eXA=="
+  "resolved" "https://registry.npmjs.org/curve25519-node/-/curve25519-node-0.0.1.tgz"
+  "version" "0.0.1"
 
 "data-urls@^2.0.0":
   "integrity" "sha512-X5eWTSXO/BJmpdIKCRuKUgSCgAN0OwliVK3yPKbwIWU1Tdw5BRajxlzMidvh+gwko9AfQ9zIj52pzF91Q3YAvQ=="

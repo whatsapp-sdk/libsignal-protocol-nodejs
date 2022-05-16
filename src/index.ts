@@ -1,4 +1,4 @@
-import { Curve25519Wrapper } from '@privacyresearch/curve25519-typescript'
+import { Curve25519Wrapper } from 'curve25519-node'
 import { Curve } from './curve'
 
 export * from './types'
