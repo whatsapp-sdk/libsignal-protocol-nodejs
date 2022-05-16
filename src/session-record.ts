@@ -72,10 +72,13 @@ export class SessionRecord implements RecordType {
     }
 
     static deserialize(serialized: string): SessionRecord {
-        let data: any = serialized;
+        // eslint-disable-next-line
+        let data: any = {};
         try {
+            // eslint-disable-next-line
             data = JSON.parse(serialized);
         } catch (e) {
+            // eslint-disable-next-line
             console.error(e);
         }
         if (data && data.version !== SESSION_RECORD_VERSION) {
